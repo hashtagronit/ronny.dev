@@ -18,13 +18,7 @@ const AboutMe = () => {
           </h1>
           <p>
             Hi, I'm <b style={{ color: '#4a90e2', fontSize: "1.2em" }}>Ronit Raj</b>.
-            I'm a web developer with a passion for
-            creating dynamic and responsive web applications. With a strong
-            background in the MERN stack and a keen eye for design, I enjoy
-            bringing ideas to life in the browser. My journey in web development
-            started with a curiosity for how websites are built, and it has
-            evolved into a fulfilling career where I get to solve interesting
-            problems every day.
+            I'm a full-stack web developer with a passion for building fast, responsive, and user-focused web applications. With experience in React, Node.js, TypeScript, and modern backend tools, I enjoy turning complex problems into clean, maintainable code. I have a strong eye for design and performance, and I love creating seamless user experiences. My journey began with a curiosity for how the web works, and it’s grown into a focused career path where I aim to contribute to impactful, real-world products.
           </p>
         </motion.div>
         <motion.div

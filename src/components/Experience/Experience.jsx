@@ -58,7 +58,7 @@ const Experience = () => {
           hidden: {},
           show: {
             transition: {
-              staggerChildren: 0.2, // Add staggered animation for items
+              staggerChildren: 0.2, 
             },
           },
         }}
@@ -67,14 +67,14 @@ const Experience = () => {
           <motion.div
             key={index}
             className="timeline-item"
-            initial={{ opacity: 0, x: -30 }} // Start from the left and invisible
-            whileInView={{ opacity: 1, x: 0 }} // Move into place with full opacity
+            initial={{ opacity: 0, x: -30 }} 
+            whileInView={{ opacity: 1, x: 0 }} 
             transition={{
               duration: 0.6,
               type: "spring",
               stiffness: 100,
               damping: 25,
-              delay: 0.15 * index, // Delay between items
+              delay: 0.15 * index, 
             }}
           >
             <div className="timeline-content">

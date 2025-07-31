@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./TapeSectionCSS.css";
-import star from "./star.svg"; // Import as image, NOT as ReactComponent
+import star from "./star.svg"; 
 
 const words = [
     "End-to-End Web App",

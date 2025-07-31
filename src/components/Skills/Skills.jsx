@@ -14,21 +14,41 @@ import postman from "../assets/postman.png";
 import docker from "../assets/docker.png";
 import express from "../assets/express1.png";
 
+import typescript from "../assets/typescript.png";
+import git from "../assets/Git.png";
+import prisma from "../assets/prisma.png";
+import postgresql from "../assets/postgresql.png";
+import zod from "../assets/zod.png";
+import jwt from "../assets/jwt.png";
+import cw from "../assets/CloudflareWorkers.png";
+import Next from "../assets/Next.js.png";
+
+
 const skillsData = [
   { id: 1, src: html5, title: "HTML" },
   { id: 2, src: css3, title: "CSS" },
   { id: 3, src: java, title: "Java" },
-  { id: 4, src: reactlogo, title: "React" },
-  { id: 5, src: javascript, title: "JavaScript" },
-  { id: 6, src: tailwind, title: "Tailwind CSS" },
-  { id: 7, src: nodejs, title: "Node.js" },
-  { id: 8, src: mongodb, title: "MongoDB" },
-  { id: 9, src: express, title: "Express" },
-  { id: 10, src: vite, title: "Vite" },
-  { id: 11, src: postman, title: "Postman" },
-  { id: 12, src: docker, title: "Docker" },
-  { id: 13, src: github, title: "GitHub" },
+  { id: 4, src: javascript, title: "JavaScript" },
+  { id: 5, src: typescript, title: "Typescript" },
+  { id: 6, src: reactlogo, title: "React" },
+  { id: 7, src: Next, title: "Next.js" },
+  { id: 8, src: tailwind, title: "Tailwind CSS" },
+  { id: 9, src: vite, title: "Vite" },
+
+  { id: 10, src: nodejs, title: "Node.js" },
+  { id: 11, src: express, title: "Express" },
+  { id: 12, src: cw, title: "Cloudflare Workers" },
+  { id: 13, src: jwt, title: "JWT" },
+  { id: 14, src: zod, title: "Zod" },
+
+  { id: 15, src: mongodb, title: "MongoDB" },
+  { id: 16, src: postgresql, title: "Postgresql" },
+  { id: 17, src: prisma, title: "Prisma" },
   
+  { id: 18, src: git, title: "Git" },
+  { id: 19, src: github, title: "GitHub" },
+  { id: 20, src: docker, title: "Docker" },
+  { id: 21, src: postman, title: "Postman" } 
 ];
 
 const Skills = () => {

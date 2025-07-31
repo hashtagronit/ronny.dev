@@ -13,10 +13,10 @@ const BackgroundParticles = () => {
             top: Math.random() * 100,
             left: Math.random() * 100,
             size: Math.random() * 3 + 2, // 2-5px
-            directionX: (Math.random() - 0.5) * 10, // Random horizontal direction
-            directionY: (Math.random() - 0.5) * 10, // Random vertical direction
-            duration: Math.random() * 3 + 12, // 12s - 15s
-            delay: Math.random() * 2, // Random delay for staggered explosions
+            directionX: (Math.random() - 0.5) * 10, 
+            directionY: (Math.random() - 0.5) * 10, 
+            duration: Math.random() * 3 + 12, 
+            delay: Math.random() * 2, 
         }));
 
         setParticles(newParticles);
@@ -30,13 +30,13 @@ const BackgroundParticles = () => {
                     className="particle"
                     initial={{ opacity: 1 }}
                     animate={{
-                        x: [`0vw`, `${p.directionX * 10}vw`], // Move in X direction
-                        y: [`0vh`, `${p.directionY * 10}vh`], // Move in Y direction
-                        opacity: [1, 0], // Fade out as it goes
+                        x: [`0vw`, `${p.directionX * 10}vw`], 
+                        y: [`0vh`, `${p.directionY * 10}vh`], 
+                        opacity: [1, 0], 
                     }}
                     transition={{
                         duration: p.duration,
-                        repeat: Infinity, // Repeat infinitely
+                        repeat: Infinity,
                         ease: 'easeOut',
                         delay: p.delay,
                     }}
@@ -45,7 +45,7 @@ const BackgroundParticles = () => {
                         left: `${p.left}vw`,
                         width: `${p.size}px`,
                         height: `${p.size}px`,
-                        backgroundColor: 'var(--particle-color)', // Use the theme color
+                        backgroundColor: 'var(--particle-color)', 
                     }}
                 />
             ))}

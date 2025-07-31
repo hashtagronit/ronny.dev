@@ -18,21 +18,21 @@ const Projectitem = (props) => {
     >
       <div className="project-content">
         <div className="project-details">
-          {/* Project Type */}
+          
           <p style={{ color: "#ff0050" }}>— {projectType}</p>
 
-          {/* Mobile Image (only visible on small screens) */}
+          
           <div className="project-image mobile-image">
             <div className="image-wrapper">
               <img src={image} alt={`${name} Screenshot`} />
             </div>
           </div>
 
-          {/* Title and Details */}
+         
           <h3 className="project-title">{name}</h3>
           <p>{description}</p>
 
-          {/* Tech Tags */}
+          
           <div className="tech-tags">
             {languages.split("|").map((lang, tagIndex) => (
               <motion.span
@@ -47,7 +47,7 @@ const Projectitem = (props) => {
             ))}
           </div>
 
-          {/* Buttons */}
+          
           <motion.a
             href={sourceCodeLink}
             target="_blank"
@@ -70,7 +70,7 @@ const Projectitem = (props) => {
           </motion.a>
         </div>
 
-        {/* Desktop Image (hidden on small screens) */}
+        
         <div className="project-image desktop-image">
           <div className="image-wrapper">
             <img src={image} alt={`${name} Screenshot`} />

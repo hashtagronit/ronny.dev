@@ -60,7 +60,7 @@ const HeroSection = () => {
     <div>
       <div className="availability-badge shine-button">
         <div className="ping-dot" />
-        <p>Available for new projects</p>
+        <p>Available for full-time opportunities</p>
       </div>
       <div className="hero-section">
         <div className="hero-content">
@@ -77,7 +77,7 @@ const HeroSection = () => {
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
             transition={{ duration: 1.2, type: "spring", stiffness: 100 }}
           >
-            I build things for the WEB
+            Full-Stack Developer
           </motion.h1>
 
           <motion.p
@@ -85,7 +85,7 @@ const HeroSection = () => {
             animate={{ opacity: isInView ? 1 : 0 }}
             transition={{ duration: 1.5 }}
           >
-            Discover the bespoke solutions and projects delivered.
+            I’m passionate about turning ideas into real-world web applications using clean, efficient code.
           </motion.p>
 
           <motion.div
@@ -95,7 +95,7 @@ const HeroSection = () => {
             transition={{ duration: 1.7 }}
           >
             <a
-              href="https://drive.google.com/file/d/1NNYnkyLHhyDjV-YD4Pkf6sQQBBWvpE8d/view?usp=sharing"
+              href="https://drive.google.com/file/d/105_o7Zcg_cTf5LOIfTeT8riBfAqdMmJM/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="join-button shine-button"
