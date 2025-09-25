@@ -18,7 +18,16 @@ const Project = () => {
       image: MetaWrite,
       projectType: "Full-Stack Blog Application",
     },
-
+    {
+      sourceCodeLink: "https://github.com/hashtagronit/MetaTask",
+      deployedLink: "https://hashtagronit.github.io/MetaTask/",
+      name: "MetaTask - Task Manager",
+      description:
+        "MetaTask is a productivity-focused task management app where managers can assign tasks with deadlines and employees can track, accept, or complete them. It supports offline access using localStorage and features a modular, responsive UI for real-time task flow.",
+      languages: "ReactJS | Tailwind CSS | JavaScript | LocalStorage | HTML5",
+      image: MetaTask,
+      projectType: "Frontend Task Management App",
+    },
     {
       sourceCodeLink: "https://github.com/hashtagronit/MetaCut",
       deployedLink: "https://hashtagronit.github.io/MetaCut/",
@@ -29,16 +38,6 @@ const Project = () => {
         "ReactJS | ViteJS | Tailwind CSS | AI Upscaler API | JavaScript | HTML5",
       image: MetaCut,
       projectType: "AI-Based Image Processing Tool",
-    },
-    {
-      sourceCodeLink: "https://github.com/hashtagronit/MetaTask",
-      deployedLink: "https://hashtagronit.github.io/MetaTask/",
-      name: "MetaTask - Task Manager",
-      description:
-        "MetaTask is a productivity-focused task management app where managers can assign tasks with deadlines and employees can track, accept, or complete them. It supports offline access using localStorage and features a modular, responsive UI for real-time task flow.",
-      languages: "ReactJS | Tailwind CSS | JavaScript | LocalStorage | HTML5",
-      image: MetaTask,
-      projectType: "Frontend Task Management App",
     },
     {
       sourceCodeLink: "https://github.com/hashtagronit/dashboard2",
